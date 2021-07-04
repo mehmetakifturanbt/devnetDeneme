@@ -6,6 +6,9 @@ class Kisi:
 	def karsilama(self):
 		print("Hoş geldin ", self.ad)
 
+	def ugurlama(self):
+		print("Gule gule", self.ad)
+
 kisi1 = Kisi("Cahit", 35)
 kisi1.karsilama()
 
